@@ -43,7 +43,7 @@ const Register = () => {
 
     try {
       // Make a POST request to the backend API
-      const response = await axios.post("http://localhost:5000/register", {
+      const response = await axios.post("https://task-management-system-1k23.onrender.com/register", {
         name,
         email,
         password,
